@@ -1,4 +1,4 @@
-# Deepwork AI
+# General Machines
 
 We design and ship AI products. From research to production — agents, dashboards, retail systems, and hospitality concierges.
 
