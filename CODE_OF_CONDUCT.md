@@ -17,4 +17,4 @@ Examples of unacceptable behavior include:
 - Publishing others’ private information (e.g., doxxing) without explicit permission.
 - Other conduct that could reasonably be considered inappropriate in a professional setting.
 
-Let’s build a secure, decentralized future—together, and with respect!
+Report unacceptable behavior to founders@generalmachines.ai.

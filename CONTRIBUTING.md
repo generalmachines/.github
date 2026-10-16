@@ -1,7 +1,9 @@
-# Contributing to BruhmaHQ
+# Contributing
 
-## Community Standards
-We want Lattice AI to be a welcoming and inclusive community. Please adhere to our [Code of Conduct](https://github.com/lattice-protocol/.github/blob/main/CODE_OF_CONDUCT.md) in all interactions.
+Thanks for your interest in General Machines.
 
-## Questions?
-Reach out to me on X [@0xLattice](https://x.com/0xLattice) or open an issue in the repository. Let’s build something amazing together. A secure, decentralized and ownable AI DePin Layer.
+- **Issues and pull requests** are welcome on our public repositories. Please search existing issues first, and keep each pull request focused on one change.
+- **Security problems:** please don't open a public issue. See [SECURITY.md](SECURITY.md).
+- **Everything else:** email founders@generalmachines.ai.
+
+By taking part you agree to our [Code of Conduct](CODE_OF_CONDUCT.md).
