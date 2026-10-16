@@ -1,7 +1,7 @@
 <a href="https://generalmachines.ai/?utm_source=github&utm_medium=org_readme">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/gm-banner-dark-v1.png">
-    <img alt="General Machines: how AI agents buy" src="./assets/gm-banner-light-v1.png" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/gm-banner-dark-v3.png">
+    <img alt="General Machines: how AI agents buy" src="./assets/gm-banner-light-v3.png" width="100%">
   </picture>
 </a>
 
