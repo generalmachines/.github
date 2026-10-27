@@ -27,7 +27,7 @@ AI agents are starting to shop for people, but online stores were built for cust
 | **2** | **CartBench** | A benchmark for commerce agents, built from CartTrace. |
 | **3** | **Commerce&#8209;1** | A small model, trained on CartTrace, that spots when a shopping agent is about to fail. |
 
-**CartTrace-100k:** [dataset](https://huggingface.co/datasets/generalmachines/CartTrace-100k) (CC BY 4.0) · paper<!-- TODO: link the paper (arXiv or PDF) before launch --> · [replay kit](https://github.com/generalmachines/cartTrace-100k) (Apache-2.0)
+**CartTrace-100k:** [dataset](https://huggingface.co/datasets/generalmachines/CartTrace-100k) (CC BY 4.0) · paper (arXiv, link to follow) · [replay kit](https://github.com/generalmachines/cartTrace-100k) (Apache-2.0)
 
 CartBench and Commerce&#8209;1 will appear here as they ship.
 
