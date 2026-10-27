@@ -1,49 +1,52 @@
 <a href="https://generalmachines.ai/?utm_source=github&utm_medium=org_readme">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/gm-banner-dark-v3.png">
-    <img alt="General Machines: how AI agents buy" src="./assets/gm-banner-light-v3.png" width="100%">
+    <img alt="General Machines. Fig. 1: how AI agents buy, from search to checkout" src="./assets/gm-banner-light-v3.png" width="100%">
   </picture>
 </a>
 
 # General Machines
 
-**General Machines is an applied AI research lab building data, evals and small models for the agentic web and physical AI.**
+General Machines is an applied AI research lab building open datasets, evals and small models for the agentic web and physical AI.
 
-AI agents are starting to shop for people, but online stores were built for customers who can see. We record what happens when agents shop, and turn it into data, benchmarks and small models for the agentic economy.
+Our first focus is commerce. [Machine Commerce](https://machinecommerce.co/?utm_source=github&utm_medium=org_readme), the agentic commerce arm of General Machines, studies how AI agents search, compare and pay in online stores, and which store details decide whether they can buy.
 
-## [Machine Commerce](https://machinecommerce.co/?utm_source=github&utm_medium=org_readme)
+## Releases
 
-**Machine Commerce is our first applied arm, for agentic commerce.** We run shopping agents through stand-in stores built from open catalogs, judge every journey, and find which store details decide whether an agent can buy, and whether it chooses you.
+| Release | Type | Status | Links |
+|---|---|---|---|
+| **CartTrace-100k** | Dataset | Released | [Dataset](https://huggingface.co/datasets/generalmachines/CartTrace-100k) · [Replay kit](https://github.com/generalmachines/cartTrace-100k) · [Explorer](https://machinecommerce.co/carttrace) · [Announcement](https://generalmachines.ai/datasets/carttrace-100k) · Paper: coming to arXiv |
+| **CartBench** | Benchmark | Planned | |
+| **Commerce&#8209;1** | Small evaluator model | Planned | |
 
-- **For AI labs and agent builders:** commerce traces and evaluations to train and test shopping agents.
-- **For merchants:** what to change so AI agents can find, understand and buy from your store.
-- **For retailers:** applied AI for shelves, catalogs, ads and storefronts, in production with our retail customers.
+### CartTrace-100k
 
-## What we're releasing
+101,416 shopping journeys by one agent (Qwen3.8-27B) in 1,044 stand-in stores built from open catalogs, across 25 product categories. Each journey runs from search through checkout and payment over five commerce protocols: UCP, ACP, AP2, MPP and WebMCP. Payments use test tokens only; nothing was bought on a real store. On journeys with full store data, the agent succeeds 68.8% of the time.
 
-| | Release | What it is |
-|---|---|---|
-| **1** | **CartTrace** | Shopping journeys by an AI agent, recorded end to end: search, compare, cart, checkout and payment. The first release, CartTrace-100k, has 101,416 journeys in 1,044 stand-in stores across 25 categories. Payments use test tokens; nothing was bought on a real store. **Out now.** |
-| **2** | **CartBench** | A benchmark for commerce agents, built from CartTrace. |
-| **3** | **Commerce&#8209;1** | A small model, trained on CartTrace, that spots when a shopping agent is about to fail. |
+- Dataset: CC BY 4.0
+- Replay kit: Apache-2.0
 
-**CartTrace-100k:** [dataset](https://huggingface.co/datasets/generalmachines/CartTrace-100k) (CC BY 4.0) · paper (arXiv, link to follow) · [replay kit](https://github.com/generalmachines/cartTrace-100k) (Apache-2.0)
+```bibtex
+@misc{bhatnagar2026carttrace,
+  title     = {CartTrace-100k: How Shopping Agents Fare Across Stores, Categories and Commerce Protocols},
+  author    = {Bhatnagar, Pratham and Pal, Deepanshu},
+  year      = {2026},
+  publisher = {General Machines},
+  url       = {https://generalmachines.ai/datasets/carttrace-100k}
+}
+```
 
-CartBench and Commerce&#8209;1 will appear here as they ship.
+## Contact
 
-## Beyond commerce
+Working on shopping agents, agent evaluations or an online store? Write to [founders@generalmachines.ai](mailto:founders@generalmachines.ai).
 
-Commerce is where we start. General Machines builds datasets for agents that act, on the web and in the physical world, and small models that run close to the data, with no cloud dependency.
-
-## Work with us
-
-Building shopping agents, running an online store, or working on agent evaluations? Write to us at founders@generalmachines.ai. We're a small team, and [we're hiring](https://generalmachines.ai/careers/?utm_source=github&utm_medium=org_readme).
-
-<p align="center">
-  <a href="https://generalmachines.ai/?utm_source=github&utm_medium=org_readme">Website</a> ·
-  <a href="https://machinecommerce.co/?utm_source=github&utm_medium=org_readme">Machine Commerce</a> ·
-  <a href="https://generalmachines.ai/careers/?utm_source=github&utm_medium=org_readme">Careers</a> ·
-  <a href="https://x.com/generalmachines">X</a> ·
-  <a href="https://linkedin.com/company/generalmachines">LinkedIn</a>
+<p>
+  <a href="https://generalmachines.ai/?utm_source=github&utm_medium=org_readme">generalmachines.ai</a> ·
+  <a href="https://machinecommerce.co/?utm_source=github&utm_medium=org_readme">machinecommerce.co</a> ·
+  <a href="https://huggingface.co/generalmachines">Hugging Face</a> ·
+  <a href="https://x.com/machinecommerce">X</a> ·
+  <a href="https://www.linkedin.com/company/generalmachinesai">LinkedIn</a> ·
+  <a href="https://generalmachines.ai/careers/?utm_source=github&utm_medium=org_readme">Careers</a>
 </p>
-<p align="center"><sub>Built in Singapore.</sub></p>
+
+<sub>General Machines Pte. Ltd., Singapore.</sub>
