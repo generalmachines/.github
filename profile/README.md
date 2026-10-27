@@ -15,26 +15,9 @@ Our first focus is commerce. [Machine Commerce](https://machinecommerce.co/?utm_
 
 | Release | Type | Status | Links |
 |---|---|---|---|
-| **CartTrace-100k** | Dataset | Released | [Dataset](https://huggingface.co/datasets/generalmachines/CartTrace-100k) · [Replay kit](https://github.com/generalmachines/cartTrace-100k) · [Explorer](https://machinecommerce.co/carttrace) · [Announcement](https://generalmachines.ai/datasets/carttrace-100k) · Paper: coming to arXiv |
+| **CartTrace-100k** | Dataset | Coming soon | |
 | **CartBench** | Benchmark | Planned | |
 | **Commerce&#8209;1** | Small evaluator model | Planned | |
-
-### CartTrace-100k
-
-101,416 shopping journeys by one agent (Qwen3.8-27B) in 1,044 stand-in stores built from open catalogs, across 25 product categories. Each journey runs from search through checkout and payment over five commerce protocols: UCP, ACP, AP2, MPP and WebMCP. Payments use test tokens only; nothing was bought on a real store. On journeys with full store data, the agent succeeds 68.8% of the time.
-
-- Dataset: CC BY 4.0
-- Replay kit: Apache-2.0
-
-```bibtex
-@misc{bhatnagar2026carttrace,
-  title     = {CartTrace-100k: Shopping-Agent Journeys Through Checkout and Payment, and Where They Fail},
-  author    = {Bhatnagar, Pratham and Pal, Deepanshu},
-  year      = {2026},
-  publisher = {General Machines},
-  url       = {https://generalmachines.ai/datasets/carttrace-100k}
-}
-```
 
 ## Contact
 
