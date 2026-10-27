@@ -28,7 +28,7 @@ Our first focus is commerce. [Machine Commerce](https://machinecommerce.co/?utm_
 
 ```bibtex
 @misc{bhatnagar2026carttrace,
-  title     = {CartTrace-100k: How Shopping Agents Fare Across Stores, Categories and Commerce Protocols},
+  title     = {CartTrace-100k: Shopping-Agent Journeys Through Checkout and Payment, and Where They Fail},
   author    = {Bhatnagar, Pratham and Pal, Deepanshu},
   year      = {2026},
   publisher = {General Machines},
