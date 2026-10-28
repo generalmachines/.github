@@ -16,7 +16,6 @@ Our first focus is commerce. [Machine Commerce](https://machinecommerce.co/?utm_
 | Release | Type | Status | Links |
 |---|---|---|---|
 | **CartTrace-100k** | Dataset | Coming soon | |
-| **CartBench** | Benchmark | Planned | |
 | **Commerce&#8209;1** | Small evaluator model | Planned | |
 
 ## Contact
