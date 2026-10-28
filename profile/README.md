@@ -7,28 +7,23 @@
 
 # General Machines
 
-General Machines is an applied AI research lab building open datasets, evals and small models for the agentic web and physical AI.
-
-Our first focus is commerce. [Machine Commerce](https://machinecommerce.co/?utm_source=github&utm_medium=org_readme), the agentic commerce arm of General Machines, studies how AI agents search, compare and pay in online stores, and which store details decide whether they can buy.
+General Machines is an applied AI research lab. We build open datasets, evals and small models for the agentic web and physical AI, and publish the research behind them. Our first focus is commerce: [Machine Commerce](https://machinecommerce.co/?utm_source=github&utm_medium=org_readme), our agentic commerce arm, studies how AI agents search, compare and pay in online stores.
 
 ## Releases
 
-| Release | Type | Status | Links |
-|---|---|---|---|
-| **CartTrace-100k** | Dataset | Coming soon | |
-| **Commerce&#8209;1** | Small evaluator model | Planned | |
+| Release | What it is | Status |
+|---|---|---|
+| **CartTrace-100k** | 101,416 journeys of an AI shopping agent through checkout and payment over UCP, ACP, AP2, MPP and WebMCP, across 1,044 stand-in stores in 25 categories | Paper out, 28 Oct 2026 · [paper](https://generalmachines.ai/papers/carttrace-100k.pdf) · [release page](https://generalmachines.ai/datasets/carttrace-100k) · [explorer](https://www.machinecommerce.co/carttrace) |
+| Commerce&#8209;1 | A small model that predicts when a shopping agent is about to fail | Planned |
+
+On CartTrace-100k the agent succeeds on 68.7% of journeys. Most lost journeys break at reading product facts and at asking the shopper; fewer stall in checkout, and almost none fail at payment. The data (CC BY 4.0) and the replay kit (Apache 2.0) open on Hugging Face and here soon.
+
+Paper: Bhatnagar, Pratham and Pal, Deepanshu. [*CartTrace-100k: How Shopping Agents Fare Across Stores, Categories and Commerce Protocols*](https://generalmachines.ai/papers/carttrace-100k.pdf). General Machines, 2026.
 
 ## Contact
 
-Working on shopping agents, agent evaluations or an online store? Write to [founders@generalmachines.ai](mailto:founders@generalmachines.ai).
+Working on shopping agents, agent evaluation or an online store? Write to [founders@generalmachines.ai](mailto:founders@generalmachines.ai).
 
-<p>
-  <a href="https://generalmachines.ai/?utm_source=github&utm_medium=org_readme">generalmachines.ai</a> ·
-  <a href="https://machinecommerce.co/?utm_source=github&utm_medium=org_readme">machinecommerce.co</a> ·
-  <a href="https://huggingface.co/generalmachines">Hugging Face</a> ·
-  <a href="https://x.com/machinecommerce">X</a> ·
-  <a href="https://www.linkedin.com/company/generalmachinesai">LinkedIn</a> ·
-  <a href="https://generalmachines.ai/careers/?utm_source=github&utm_medium=org_readme">Careers</a>
-</p>
+[generalmachines.ai](https://generalmachines.ai/?utm_source=github&utm_medium=org_readme) · [Machine Commerce](https://machinecommerce.co/?utm_source=github&utm_medium=org_readme) · [Hugging Face](https://huggingface.co/generalmachines) · [LinkedIn](https://www.linkedin.com/company/generalmachinesai) · [Careers](https://generalmachines.ai/careers/?utm_source=github&utm_medium=org_readme)
 
 <sub>General Machines Pte. Ltd., Singapore.</sub>
