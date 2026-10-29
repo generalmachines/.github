@@ -13,10 +13,12 @@ General Machines is an applied AI research lab. We build open datasets, evals an
 
 | Release | What it is | Status |
 |---|---|---|
-| [CartTrace-100k](https://github.com/generalmachines/cartTrace-100k) | 101,416 journeys of an AI shopping agent through checkout and payment over UCP, ACP, AP2, MPP and WebMCP, across 1,044 stand-in stores in 25 categories | Launched 28 Oct 2026 · [dataset](https://huggingface.co/datasets/generalmachines/CartTrace-100k) · [release page](https://generalmachines.ai/datasets/carttrace-100k) · [explorer](https://www.machinecommerce.co/carttrace) |
+| [CartTrace-100k](https://github.com/generalmachines/cartTrace-100k) | 101,416 journeys of an AI shopping agent through checkout and payment over UCP, ACP, AP2, MPP and WebMCP, across 1,044 stand-in stores in 25 categories | Released, 28 Oct 2026 · [paper](https://generalmachines.ai/papers/carttrace-100k.pdf) · [dataset](https://huggingface.co/datasets/generalmachines/CartTrace-100k) · [release page](https://generalmachines.ai/datasets/carttrace-100k) · [explorer](https://www.machinecommerce.co/carttrace) |
 | Commerce&#8209;1 | A small model that predicts when a shopping agent is about to fail | Planned |
 
 On CartTrace-100k the agent succeeds on 68.7% of journeys. Most lost journeys break at reading product facts and at asking the shopper; fewer stall in checkout, and almost none fail at payment. The data is CC BY 4.0 and the replay kit is Apache 2.0.
+
+Paper: Bhatnagar, Pratham and Pal, Deepanshu. [*CartTrace-100k: How Shopping Agents Fare Across Stores, Categories and Commerce Protocols*](https://generalmachines.ai/papers/carttrace-100k.pdf). General Machines, 2026.
 
 ## Contact
 
