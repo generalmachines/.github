@@ -18,7 +18,7 @@ General Machines is an applied AI research lab. We build open datasets, evals an
 
 On CartTrace-100k the agent succeeds on 68.7% of journeys. Most lost journeys break at reading product facts and at asking the shopper; fewer stall in checkout, and almost none fail at payment. The data is CC BY 4.0 and the replay kit is Apache 2.0.
 
-Paper: Bhatnagar, Pratham and Pal, Deepanshu. [*CartTrace-100k: How Shopping Agents Fare Across Stores, Categories and Commerce Protocols*](https://generalmachines.ai/papers/carttrace-100k.pdf). General Machines, 2026.
+Paper: Bhatnagar, Pratham and Pal, Deepanshu. [*CartTrace-100k: Analyzing Agent Behavior Across Stores, Categories and Commerce Protocols*](https://generalmachines.ai/papers/carttrace-100k.pdf). General Machines, 2026.
 
 ## Contact
 
